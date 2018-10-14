@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
         });
     });
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".about-service-caption, .about-works-caption").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -57,9 +57,9 @@ jQuery(document).ready(function($) {
                $(this).addClass("animated zoomIn");
             }
         });
-    });
+    });*/
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".about-info-description-left").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -67,7 +67,7 @@ jQuery(document).ready(function($) {
                $(this).addClass("animated bounceInLeft");
             }
         });
-    });
+    });*/
     
     $(window).scroll(function () {
         $(".progress-bars").each(function() {
@@ -79,7 +79,7 @@ jQuery(document).ready(function($) {
         });
     });
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".service-first, .service-fourth").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -87,9 +87,9 @@ jQuery(document).ready(function($) {
                $(this).addClass("animated fadeInLeft");
             }
         });
-    });
+    });*/
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".service-third, .service-sixth").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -97,9 +97,9 @@ jQuery(document).ready(function($) {
                $(this).addClass("animated fadeInRight");
             }
         });
-    });
+    });*/
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".service-second").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -107,9 +107,9 @@ jQuery(document).ready(function($) {
                $(this).addClass("animated fadeInDown");
             }
         });
-    });
+    });*/
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".service-fifth").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -117,9 +117,9 @@ jQuery(document).ready(function($) {
                $(this).addClass("animated fadeInUp");
             }
         });
-    });
+    });*/
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".sheme-work-first").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -157,9 +157,9 @@ jQuery(document).ready(function($) {
                $(this).show(3500);
             }
         });
-    });
+    });*/
     
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $(".contacts-description-left").each(function() {
             let imgPos = $(this).offset().top;
             let topWindow = $(window).scrollTop();
@@ -177,7 +177,7 @@ jQuery(document).ready(function($) {
                $(this).addClass("animated jackInTheBox");
             }
         });
-    });
+    });*/
     
     $(".service-first").hover(function () {
         $(this).toggleClass("about-service-description-hover");
@@ -216,6 +216,8 @@ jQuery(document).ready(function($) {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                utoplay: true,
+                autoplaySpeed: 2500,
               }
             }
         ]
